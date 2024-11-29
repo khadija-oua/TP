@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="icon" href="res/images/favicon.ico">
+ <title>My Dashboard</title>
+ </head>
+ <body>
+    <header>
+        <h1><strong>Welcome to your dashboard!</strong></h1>
+        <section>
+            <h3>Personnal Information</h3>
+            <div>
+            <img src="res/images/me.png" width="128" height="128" alt="My picture">
+            </div>
+            <div>
+            <ul>
+            <li>Your name</li>
+            <li> A date following this format dd/mm/yyyy</li>
+            <li> Software Engineering </li>
+            </ul>
+            </div>
+            <div>
+            <strong>2.65</strong>
+            </div>
+           </section>
+           <section>
+            <h3>Courses</h3>
+            <table>
+            <thead>
+            <tr>
+                 <th>#</th>
+                 <th>Course Title</th>
+                 <th>Semester</th>
+            <th>Grade</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>1</td>
+            <td>Agile software development</td>
+            <td>fall</td>
+            <td>82</td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td> Systems modelling </td>
+            <td>fall</td>
+            <td>85</td>
+            </tr>
+            <tr>
+            <td>3</td>
+            <td> Requirements Engineering </td>
+            <td>fall</td>
+            <td>99</td>
+            </tr>
+            <tr>
+            <td>4</td>
+            <td> Human Computer Interaction </td>
+            <td>fall</td>
+            <td>65</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                 <th>-</th>
+                 <th>-</th>
+                 <th>-</th>
+            <th>-</th>
+            </tr>
+            </tfoot>
+            </table>
+           </section>
+           
+       </header>
+        <div>
+        <p> Course Title</p>
+        <input type="text">
+        <p>Semester</p>
+        <select name="Semester" id="Semester">
+            <option value="FULL">Full</option>
+            <option value="Availble">Spring</option>
+        </select>
+        <p>Attendence:</p>
+        <form>
+            <p>
+                <input type="radio" name="choix" id="option1" value="option1">
+                <label for="option1">Virtual Attendece</label>
+            </p>
+            <p>
+                <input type="radio" name="choix" id="option2" value="option2">
+                <label for="option1">Physical Attendece</label>
+            </p>
+            <p>
+                <button type="submit">submet</button>
+            </p>
+        </form>
+    
+        </div>
+
+       <footer>
+        <ul>
+        <li>
+        <a href="https://www.inpt.ac.ma/" target="_blank">moodle</a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com/html/" target="_blank">Courses</a>
+            </li>
+            </ul>
+           </footer>
+
+ </body>
+</html>
