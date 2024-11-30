@@ -1,0 +1,23 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+   line-height: 1.6;
+   margin: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    color: #34495e;
+    text-decoration : none;
+
+}
+section{
+    padding: 10px 15px;
+    margin: 10px;
+
+}
